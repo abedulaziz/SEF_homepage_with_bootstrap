@@ -324,3 +324,107 @@ main .main_interface .main_interface_content .SEF_domain button {
 .media .content .media-platforms > div .img-wrapper img {
   width: 100%;
 }
+
+/* funding and strategic partners section */
+
+.funding-partners .content .partners-logos .img-wrapper {
+  padding: 17px;
+}
+
+.funding-partners .content .partners-logos .img-wrapper img{
+  width: 100%;
+}
+
+.funding-partners .content .separator {
+  padding: 17px;
+}
+
+.funding-partners .content .separator hr {
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+}
+
+.funding-partners .content .strategic-partners .heading {
+  padding-top: 17px;
+}
+
+.funding-partners .content .strategic-partners .strat-part-logos > div .img-wrapper {
+  padding: 17px;
+}
+
+.funding-partners .content .strategic-partners .strat-part-logos > div .img-wrapper img {
+  width: 100%;
+}
+
+/* subscription section */
+
+.subscription {
+  background-color: #e6e6e6;
+}
+
+.subscription .content .subscribe-but {
+  padding: 17px;
+}
+
+.subscription .content .subscribe-but button{
+  background: #000;
+  color: #fff;
+  line-height: 1.6;
+  padding: 1.4rem 3rem;
+  font-size: 22px;
+  border: none;
+  border-radius: .4rem;
+}
+
+/* footer */
+
+footer {
+  background-color: #000;
+  color: #FFF;
+}
+footer .container {
+  padding: calc(15vmax / 10) 0
+}
+
+footer .content .privacy_policy {
+  font-size: 26px;
+}
+
+footer .content .privacy_policy a {
+  text-decoration: underline;
+  color: var(--theme-color);
+}
+
+footer .content .copyright h2 {
+  margin: 0;
+}
+
+footer .content .social-media {
+  font-size: 22px;
+}
+
+footer .content .social-media {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+}
+
+
+
+footer .content .social-media > div:not(:last-child){
+  margin-right: 20px;
+}
+
+/* media queries */
+
+/* @media(max-width: 767px) {
+  footer .content > div {
+    width: 100%;
+  }
+} */
+
+@media (max-width: 991px) {
+  header .navbar .nav-list .navbar-nav {
+    background-color: #FFF;
+  }
+}
