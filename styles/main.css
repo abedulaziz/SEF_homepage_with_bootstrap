@@ -417,9 +417,3 @@ footer .content .social-media > div:not(:last-child){
 
 /* media queries */
 
-
-@media (max-width: 991px) {
-  header .navbar .nav-list .navbar-nav {
-    background-color: #FFF;
-  }
-}
